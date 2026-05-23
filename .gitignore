@@ -1,0 +1,22 @@
+# Android/Gradle build output
+**/build/
+**/.gradle/
+**/.kotlin/
+
+# Local machine files
+**/local.properties
+**/.env
+**/.env.*
+*.jks
+*.keystore
+google-services.json
+
+# Agent/local scratch
+.codex-temp/
+.ralph/
+data/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+*.log

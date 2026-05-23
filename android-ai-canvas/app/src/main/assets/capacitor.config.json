@@ -1,0 +1,9 @@
+{
+	"appId": "com.aicanvas.app",
+	"appName": "AI画布",
+	"webDir": "apps/web/dist",
+	"bundledWebRuntime": false,
+	"android": {
+		"webContentsDebuggingEnabled": true
+	}
+}
