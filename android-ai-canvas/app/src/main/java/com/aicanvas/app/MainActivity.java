@@ -59,6 +59,7 @@ public class MainActivity extends BridgeActivity {
         webView.setScrollbarFadingEnabled(true);
 
         webView.addJavascriptInterface(new NativeImageStreamBridge(webView), "GptImageCanvasNativeStream");
+        webView.addJavascriptInterface(new NativeImageSaveBridge(this), "GptImageCanvasNativeSave");
 
         WebSettings settings = webView.getSettings();
         settings.setDomStorageEnabled(true);
